@@ -235,7 +235,7 @@ document.querySelectorAll('a[href^="#"]').forEach((link) => {
 ========================================= */
 
 const menuButton = document.querySelector(".menu");
-const mobileNav = document.querySelector(".nav-links");
+const mobileNav = document.getElementById("mobileMenu");
 
 if (menuButton && mobileNav) {
 
