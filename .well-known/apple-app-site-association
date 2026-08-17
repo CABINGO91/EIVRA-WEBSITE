@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "JK96N47995.no.dinverdibank.app"
+        ],
+        "components": [
+          {
+            "/": "/app"
+          },
+          {
+            "/": "/app/*"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050706">
+  <meta name="description" content="EIVRA – din digitale oversikt over eiendeler, verdier, bolig og dokumentasjon.">
+  <title>EIVRA — Vit hva du eier. Vit hva det er verdt.</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- QR-kode -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+
+<body>
+
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <!-- NAV -->
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="EIVRA hjem">
+      <span class="brand-mark">E</span>
+      <span>EIVRA</span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#funksjoner">Funksjoner</a>
+      <a href="#slik-fungerer-det">Slik fungerer det</a>
+      <a href="#eivra-plus">EIVRA+</a>
+      <a href="#sikkerhet">Sikkerhet</a>
+    </nav>
+
+    <a class="nav-cta" href="#kom-i-gang">
+      Kom i gang <span>↗</span>
+    </a>
+
+    <button class="menu" aria-label="Åpne meny">☰</button>
+  </header>
+
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+
+      <div class="hero-copy">
+
+        <div class="eyebrow">
+          <span class="pulse"></span>
+          DIN DIGITALE EIENDDELSOVERSIKT
+        </div>
+
+        <h1>
+          Vit hva du eier.<br>
+          <em>Vit hva det er verdt.</em>
+        </h1>
+
+        <p class="hero-text">
+          EIVRA samler eiendelene dine på ett sted – med AI-analyse,
+          dokumentasjon, verdier, bolig og skadesaker i én oversikt.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#kom-i-gang">
+            Oppdag EIVRA <span>↗</span>
+          </a>
+
+          <a class="button ghost" href="#slik-fungerer-det">
+            Se hvordan det fungerer
+          </a>
+        </div>
+
+        <div class="hero-note">
+          <span>✓</span> Laget for norske forhold
+          <span>✓</span> Personvern i fokus
+        </div>
+
+      </div>
+
+
+      <!-- APP PREVIEW -->
+      <div class="hero-visual">
+
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+
+        <div class="phone">
+
+          <div class="phone-top">
+            <span></span>
+            <b>EIVRA</b>
+            <span>•••</span>
+          </div>
+
+          <div class="phone-greeting">
+            Din oversikt
+          </div>
+
+          <div class="value-card">
+            <small>Samlet verdi</small>
+            <strong>1 248 500 kr</strong>
+            <div class="trend">
+              ↑ Oppdatert oversikt
+            </div>
+          </div>
+
+          <div class="mini-grid">
+            <div>
+              <b>42</b>
+              <span>Eiendeler</span>
+            </div>
+
+            <div>
+              <b>8</b>
+              <span>Kategorier</span>
+            </div>
+          </div>
+
+          <div class="asset">
+            <div class="asset-icon">⌂</div>
+
+            <div>
+              <b>Hjørnesofa</b>
+              <span>Stue · dokumentert</span>
+            </div>
+
+            <strong>18 900 kr</strong>
+          </div>
+
+          <div class="asset">
+            <div class="asset-icon">⌂</div>
+
+            <div>
+              <b>Bolig</b>
+              <span>Enebolig · verdivurdering</span>
+            </div>
+
+            <strong>4,8 M</strong>
+          </div>
+
+          <div class="scan">
+            <span>＋</span>
+            Registrer ny eiendel
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- TICKER -->
+    <section class="ticker">
+      <span>EIENDELER</span>
+      <i>✦</i>
+      <span>VERDIER</span>
+      <i>✦</i>
+      <span>BOLIG</span>
+      <i>✦</i>
+      <span>AI</span>
+      <i>✦</i>
+      <span>DOKUMENTASJON</span>
+      <i>✦</i>
+      <span>SKADE</span>
+      <i>✦</i>
+    </section>
+
+
+    <!-- FUNKSJONER -->
+    <section class="section" id="funksjoner">
+
+      <div class="section-head">
+
+        <div>
+          <div class="eyebrow">
+            ÉN APP. HELE OVERSIKTEN.
+          </div>
+
+          <h2>
+            Alt du eier.<br>
+            <em>Samlet.</em>
+          </h2>
+        </div>
+
+        <p>
+          EIVRA er laget for å gjøre det enkelt å bygge en komplett,
+          levende oversikt over verdiene dine – fra små gjenstander til bolig.
+        </p>
+
+      </div>
+
+
+      <div class="feature-grid">
+
+        <article class="feature feature-large">
+          <div class="feature-icon">✦</div>
+          <h3>AI som hjelper deg</h3>
+          <p>
+            Ta bilde av en gjenstand og la EIVRA hjelpe med å finne
+            produkt, merke, modell og relevant informasjon.
+          </p>
+          <div class="feature-chip">AI-ANALYSE</div>
+        </article>
+
+
+        <article class="feature">
+          <div class="feature-icon">◈</div>
+          <h3>Verdier</h3>
+          <p>
+            Hold oversikt over dokumenterte verdier og grunnlaget
+            de bygger på.
+          </p>
+          <div class="feature-chip">VERDI</div>
+        </article>
+
+
+        <article class="feature">
+          <div class="feature-icon">⌂</div>
+          <h3>Bolig</h3>
+          <p>
+            Registrer boligen separat og legg inn takst eller
+            e-takst som dokumentert verdigrunnlag.
+          </p>
+          <div class="feature-chip">BOLIG</div>
+        </article>
+
+
+        <article class="feature">
+          <div class="feature-icon">▣</div>
+          <h3>Dokumentasjon</h3>
+          <p>
+            Samle kvitteringer, bilder og viktige opplysninger
+            om eiendelene dine.
+          </p>
+          <div class="feature-chip">DOKUMENT</div>
+        </article>
+
+
+        <article class="feature">
+          <div class="feature-icon">!</div>
+          <h3>Skade</h3>
+          <p>
+            Hold skadesaker og dokumentasjon samlet når noe går galt.
+          </p>
+          <div class="feature-chip">SKADE</div>
+        </article>
+
+
+        <article class="feature">
+          <div class="feature-icon">↗</div>
+          <h3>Rapporter</h3>
+          <p>
+            Gjør oversikten om til ryddig dokumentasjon når du trenger den.
+          </p>
+          <div class="feature-chip">RAPPORT</div>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- SLIK FUNGERER DET -->
+    <section class="dark-section" id="slik-fungerer-det">
+
+      <div class="section-head light">
+
+        <div>
+          <div class="eyebrow">
+            TRE STEG
+          </div>
+
+          <h2>
+            Fra bilde til<br>
+            <em>oversikt.</em>
+          </h2>
+        </div>
+
+        <p>
+          Det skal ikke føles som administrasjon. EIVRA er laget
+          for at du skal kunne registrere ting mens du allerede har dem i hånden.
+        </p>
+
+      </div>
+
+
+      <div class="steps">
+
+        <div class="step">
+          <span>01</span>
+          <h3>Ta et bilde</h3>
+          <p>
+            Registrer eiendelen direkte fra mobilen.
+          </p>
+        </div>
+
+        <div class="step">
+          <span>02</span>
+          <h3>La EIVRA analysere</h3>
+          <p>
+            AI hjelper med identifikasjon og relevant informasjon.
+          </p>
+        </div>
+
+        <div class="step">
+          <span>03</span>
+          <h3>Bygg din oversikt</h3>
+          <p>
+            Eiendeler, verdier og dokumentasjon samles på ett sted.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- EIVRA+ -->
+    <section class="section plus-section" id="eivra-plus">
+
+      <div class="plus-card">
+
+        <div class="eyebrow">
+          EIVRA+
+        </div>
+
+        <h2>
+          Full kontroll.<br>
+          <em>Uten grenser.</em>
+        </h2>
+
+        <p>
+          For deg som vil ha mer ut av oversikten din.
+        </p>
+
+        <div class="plus-price">
+          <strong>39 kr</strong>
+          <span>/ mnd</span>
+        </div>
+
+        <div class="plus-features">
+          <span>✓ Ubegrensede eiendeler</span>
+          <span>✓ Automatisk verdioppdatering</span>
+          <span>✓ Avansert AI</span>
+          <span>✓ Bolig- og bilverdi</span>
+          <span>✓ Automatisk backup</span>
+          <span>✓ Skaderapporter</span>
+          <span>✓ Familiedeling</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SIKKERHET -->
+    <section class="section split" id="sikkerhet">
+
+      <div class="security-card">
+
+        <div class="eyebrow">
+          PERSONVERN FØRST
+        </div>
+
+        <h2>
+          Dine ting.<br>
+          <em>Din oversikt.</em>
+        </h2>
+
+        <p>
+          EIVRA skal gjøre det enklere å ha kontroll på egne verdier.
+          Personvern, tilgangskontroll og tydelig informasjon skal være
+          en del av produktet – ikke noe som kommer til slutt.
+        </p>
+
+        <a class="text-link" href="personvern.html">
+          Les om personvern →
+        </a>
+
+      </div>
+
+
+      <div class="quote-card">
+
+        <div class="quote-mark">“</div>
+
+        <blockquote>
+          Det du eier fortjener en bedre oversikt.
+        </blockquote>
+
+        <span>EIVRA</span>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta-section" id="kom-i-gang">
+
+      <div class="cta-glow"></div>
+
+      <div class="eyebrow">
+        EIVRA
+      </div>
+
+      <h2>
+        Få kontroll på<br>
+        <em>det som er ditt.</em>
+      </h2>
+
+      <p>
+        Bygg din digitale eiendelsoversikt – ett bilde om gangen.
+      </p>
+
+      <button class="button primary big" id="contactButton">
+        Kontakt EIVRA <span>↗</span>
+      </button>
+
+      <div class="support-line">
+
+        <a href="mailto:support@eivra.no">
+          support@eivra.no
+        </a>
+
+        <span class="support-divider"></span>
+
+        <span>
+          🇳🇴 Laget i Norge
+        </span>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="footer-brand">
+
+      <div class="brand">
+        <span class="brand-mark">E</span>
+        <span>EIVRA</span>
+      </div>
+
+      <p>
+        Din digitale oversikt over det du eier.
+      </p>
+
+    </div>
+
+
+    <div class="footer-links">
+
+      <a href="personvern.html">
+        Personvern
+      </a>
+
+      <a href="vilkar.html">
+        Vilkår
+      </a>
+
+      <a href="#sikkerhet">
+        Sikkerhet
+      </a>
+
+      <a href="#top">
+        Om EIVRA
+      </a>
+
+      <a href="#kom-i-gang">
+        Kontakt
+      </a>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+      <span>
+        © <span id="year"></span> EIVRA
+      </span>
+
+      <span>
+        🇳🇴 Laget i Norge
+      </span>
+
+    </div>
+
+  </footer>
+
+
+  <!-- KONTAKT / VISITTKORT -->
+  <div class="modal" id="contactModal" aria-hidden="true">
+
+    <div class="modal-backdrop"></div>
+
+    <div class="business-card" role="dialog" aria-modal="true">
+
+      <button
+        class="modal-close"
+        id="closeContact"
+        aria-label="Lukk"
+      >
+        ×
+      </button>
+
+
+      <div class="card-top">
+
+        <div class="card-logo">
+          <span>E</span>
+          <strong>EIVRA</strong>
+        </div>
+
+      </div>
+
+
+      <div class="card-content">
+
+        <div class="card-info">
+
+          <div class="contact-row">
+            <span class="contact-icon">♙</span>
+
+            <div>
+              <small>Utvikler</small>
+              <strong>Stefan Vedvik Lindberg</strong>
+            </div>
+          </div>
+
+
+          <div class="contact-row">
+            <span class="contact-icon">⌕</span>
+
+            <div>
+              <small>Telefon</small>
+              <a href="tel:+4747837773">
+                478 37 773
+              </a>
+            </div>
+          </div>
+
+
+          <div class="contact-row">
+            <span class="contact-icon">✉</span>
+
+            <div>
+              <small>E-post</small>
+              <a href="mailto:Stefan.Lindberg@eivra.no">
+                Stefan.Lindberg@eivra.no
+              </a>
+            </div>
+          </div>
+
+
+          <div class="contact-row">
+            <span class="contact-icon">⌖</span>
+
+            <div>
+              <small>Lokasjon</small>
+              <strong>Fredrikstad</strong>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="qr-area">
+
+          <div id="qrcode"></div>
+
+          <span>
+            Skann for kontakt
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <button class="vcard-button" id="downloadVcard">
+        <span>⇩</span>
+        Last ned kontaktinfo (vCard)
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
